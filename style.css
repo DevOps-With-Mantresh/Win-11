@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: url('photos/bg.jpeg'); */
+     /* background-size: cover; */
+     overflow: hidden;
+     height: 100vh;
+     background-color: rgb(194, 225, 238);
+    /*background-repeat: no-repeat; */
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    bottom: -125px;
+    position: absolute;
+}
+
+.taskbar{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f3f3f3;
+    z-index: 100;
+}
+
+.startmenu{
+    position: absolute;
+    /* bottom: 45px; */
+    bottom: -550px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+    z-index: 90;
+}
+
+.startmenu img{
+    height: 550px;
+    border-radius: 8px;
+}
+
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 85%;
+}
+
+.google{
+    color: white;
+    width: 45px;
+    
+}
+
+.google img{
+    margin: 10px 5px 1px 5px;
+    padding: 10px 5px 1px 5px;
+}
+
+.text{
+    margin-left: 25px;
+    margin-bottom: 15px;
+    color: white;
+    text-align: ;
+    
+}
+
+.bootstrap img{
+    margin: 10px 5px 1px 12px;
+    padding: 10px 5px 1px 15px;
+}
+
+.recycle img{
+    margin: 10px 5px 1px 10px;
+    padding: 10px 5px 1px 12px;
+}
+
+.youtube img{
+    margin: 10px 5px 4px 13px;
+    padding: 10px 5px 1px 12px;
+}
+
+.micro img{
+    margin: 10px 5px 4px 13px;
+    padding: 10px 5px 1px 12px;
+}
